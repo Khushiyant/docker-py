@@ -11,7 +11,7 @@ categories = [
     'test'
 ]
 
-STAGES = ['tp', 'beta', 'rc']
+STAGES = ['tcp', 'beta', 'rc']
 
 
 class Version(namedtuple('_Version', 'major minor patch stage edition')):
